@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+    align-items: center;
+    width:100vw;
+    height:92px;
+    background-color: #043873;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:6px;
+}
+
+.img{
+    height: 30px;
+    width:37px;
+    gap:10px;
+}
+
+h3{
+    font-size:16px;
+    color:white;
+    font-family: "Onest", sans-serif;
+}
+.text-sec{
+    display: flex;
+    font-size: 0.8rem;
+
+}
+.text-sec p{
+    font-family: "Onest", sans-serif;
+    padding: 20px;
+}
+.text-sec p:hover{
+    background-color: #FFE492;
+    color:black;
+    border-radius: 8px;
+}
+.buttons{
+    display: flex;
+    gap:10px;
+    text-decoration: none;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    width:126px;
+    height: 60px;
+    background-color: #FFE492;
+    font-family: "Inter", sans-serif;
+    border-radius: 8px;
+    color:#043873;
+    align-items: center;
+    text-align: center;
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+    width:220px;
+    height: 60px;
+    background-color:#4F9CF9;
+    font-family: "Inter", sans-serif;
+    border-radius: 8px;
+    color:#FFFFFF;
+    align-items: center;
+    text-align: center;
+}
+
+.hamburger{
+    color:white;
+    font-size: 30px;
+    display: none;
+}
+
+
+.responsive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #043873;
+}
+
+.responsive p{
+    padding:20px;
+}
+.text-sec2 p:hover{
+    background-color: yellow;
+    width: 100vw;
+    text-align: center;
+    color:aqua;
+}
+ 
+.text-sec2{
+    display: none;
+}
+
+
+.text-sec2 p{
+        font-family: "Onest", sans-serif;
+    }
+
+@media only screen and (max-width:917px){
+
+  .text-sec{
+        display: none;      
+     }
+
+.buttons{
+    display: none;
+}
+
+.hamburger{
+    display: block;
+}
+
+.text-sec2.show {
+    display: block; /* Show the element when the 'show' class is added */
+}
+.text-sec2 p:hover{
+    background-color: yellow;
+    width: 100vw;
+    text-align: center;
+    color:antiquewhite;
+    
+}
+}
+
+/* section 2 */
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    background-color: #043873;
+    height:829px;
+    width: 1920px;
+    
+}
+
+.container-2 p{
+    margin-left: 40px;
+}
+.get{
+    font-size: 3rem;
+    color:#FFFFFF;
+    margin-top: 30px;
+
+}
+.project{
+    color:#FFFFFF;
+    font-size: 0.8rem;
+    margin-top: 30px;
+
+}
+
+.lottie{
+    display: flex;
+    margin-left: 700px;
+    height:300px;
+    width: 300px;
+    background-color: azure;
+    margin-top: 10px;
+    
+}
+
+.btn4{
+    width: 219px;
+    height:63px;
+    border-radius: 8px;
+    background-color: #4F9CF9;
+}
+
